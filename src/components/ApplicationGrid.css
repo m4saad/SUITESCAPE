@@ -1,0 +1,35 @@
+.application-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 80px;
+}
+
+.drag-over {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.add-card-placeholder {
+  height: 200px;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.add-button {
+  font-size: 24px;
+  color: #007bff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-button:hover {
+  color: #0056b3;
+}

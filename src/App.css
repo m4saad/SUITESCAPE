@@ -1,0 +1,31 @@
+.app-container {
+  padding: 20px;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.control-panel {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.remove-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.remove-button:hover {
+  background-color: #cc0000;
+}
